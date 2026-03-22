@@ -2,7 +2,7 @@
 
 > Download YouTube video transcripts directly into your AI workflow — no more copying/pasting!
 
-[![npm version](https://img.shields.io/npm/v/mcp-youtube-transcript)](https://www.npmjs.com/package/mcp-youtube-transcript)
+[![npm version](https://img.shields.io/npm/v/@milor123/mcp-youtube-transcript-downloader)](https://www.npmjs.com/package/@milor123/mcp-youtube-transcript-downloader)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js 18+](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 
