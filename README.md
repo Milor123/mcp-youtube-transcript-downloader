@@ -32,6 +32,9 @@ npm install
 
 # Build the project
 npm run build
+
+# Or use directly with npx
+npx @milor123/mcp-youtube-transcript-downloader
 ```
 
 ### Get Your Free API Key
@@ -185,7 +188,7 @@ Get your API key at **[https://supadata.ai](https://supadata.ai)**
 ## 📁 Project Structure
 
 ```
-MCP-youtube-transcript-downloader/
+@milor123/mcp-youtube-transcript-downloader/
 ├── src/
 │   └── index.ts          # Main MCP server implementation
 ├── dist/                 # Compiled JavaScript output (generated after build)
