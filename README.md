@@ -141,14 +141,35 @@ Downloads a YouTube video transcript and saves it to a **specific filepath** of 
 
 ### OpenCode
 
+#### Option 1 - Remote (recommended - coming soon)
+
+```json
+{
+  "mcpServers": {
+    "youtube-transcript": {
+      "type": "remote",
+      "url": "https://your-remote-mcp-server.com/youtube-transcript",
+      "environment": {
+        "SUPADATA_API_KEY": "sd_your_api_key_here"
+      }
+    }
+  }
+}
+```
+
+> Remote hosting allows sharing a single MCP server across multiple users. Contact the maintainer for server access.
+
+#### Option 2 - Local (npx installation)
+
 ```json
 {
   "mcpServers": {
     "youtube-transcript": {
       "type": "local",
-      "command": ["node", "dist/index.js"],
+      "command": ["npx", "@milor123/mcp-youtube-transcript-downloader"],
+      "enabled": true,
       "environment": {
-        "SUPADATA_API_KEY": "sd_your_api_key_here"
+        "SUPADATA_API_KEY": "sd_28bee9cd727665ed7a6ceebcf4c90334"
       }
     }
   }
